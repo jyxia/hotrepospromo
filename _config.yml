@@ -19,6 +19,7 @@ app:
   # 512px or greater, square
 
   screenshot: # Leave blank to auto-magically populate
+    images/app-screen.png
   # To update use path relative to project root with no leading slash:
   # e.g. images/app-screen-640x1136.png
   # 640x1136px
@@ -29,7 +30,7 @@ app:
 marketing_header:
   Follow GitHub trends. <br> # Optional
 marketing_desc:
-  🔥 Easily check out the trending happened in GitHub.<br>⭐️ Star your favorite repos.<br>👥 Discover people in the community.<br>👤 Contributors, forks, stargazers, languages all in one place.<br>❤️ Stay connected with your followers, following and starred repos.<br>
+  🔥 Easily check out what is happening in GitHub.<br>⭐️ Star your favorite repos.<br>👥 Discover people in the community.<br>👤 Contributors, forks, stargazers, languages all in one place.<br>❤️ Stay connected with your followers, following and starred repos.<br>
 
 #
 # Social Links
