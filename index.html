@@ -55,7 +55,7 @@
                 <img class="screenshot" src="images/screenshots/app-screen-6.png" />
                 <img class="screenshot" src="images/screenshots/app-screen-7.png" />
               </div>
-            </div>
+            </div> <!-- col-xs-6 ends -->
         </div>
 
         <div class="col-sm-6">
@@ -91,8 +91,9 @@
               </a>
             </div>
           </div>
+          <p>Copyright 2016 © Jinyue Xia.</p>
+        </div> <!-- col-xs-6 ends -->
 
-        </div>
       </div> <!-- row ends -->
 
     </div>
@@ -112,7 +113,6 @@
 
 <div class="footer">
   <div class="container">
-    <!-- footer text here -->
   </div>
 </div>
 
@@ -122,7 +122,7 @@
 <script>
   $(function() {
     var API_URL = 'https://itunes.apple.com/lookup?id=1142465304&callback=?';
-    $.getJSON(API_URL, function(res) {
+    function jsonCallback(res) {
       if (res.results && res.results.length) {
         console.info('App info successfully loaded from Apple');
         var appInfo = res.results[0];
@@ -139,7 +139,9 @@
       } else {
         console.warn('Unable to load app info from Apple');
       }
-    });
+    }
+    // disable for pre-release
+    // $.getJSON(API_URL, jsonCallback);
   });
 
   $(".slide-screenshot").slick({

@@ -13,30 +13,34 @@ body {
     color: white;
     font-size: 18px;
     -moz-osx-font-smoothing: grayscale;
-    -webkit-font-smoothing: antialiased
+    -webkit-font-smoothing: antialiased;
 }
 
 a {
-    transition: all .3s
+    transition: all .3s;
 }
 
 .container {
-    max-width: 980px
+    max-width: 980px;
 }
 
 .main {
     position: relative;
     min-height: 100%;
     padding-top: 70px;
-    padding-bottom: 60px
+    padding-bottom: 60px;
 }
 
 .footer {
-    padding-bottom: 50px
+    padding-bottom: 50px;
 }
 
 .marketing {
-    text-align: center
+    text-align: center;
+}
+
+.marketing dd{
+    text-align: left;
 }
 
 .app-meta {
@@ -55,11 +59,11 @@ a {
     margin: 0 auto 20px;
     max-width: 450px;
     white-space: pre-wrap;
-    font-weight: 500
+    font-weight: 500;
 }
 
 .download-buttons {
-    margin-bottom: 20px
+    margin-bottom: 20px;
 }
 
 .download-btn {
@@ -69,7 +73,7 @@ a {
     background-color: #0191FF;
     color: #fff;
     background-color: #FF5E3A;
-    color: white
+    color: white;
 }
 
 .download-btn:focus,
@@ -77,31 +81,31 @@ a {
     background-color: #00579a;
     color: #fff;
     background-color: #d32700;
-    color: white
+    color: white;
 }
 
 .social {
-    text-align: center
+    text-align: center;
 }
 
 .social-links {
     padding-left: 0;
     margin-left: -5px;
-    list-style: none
+    list-style: none;
 }
 
 .social-links li {
     display: inline-block;
-    margin: 12px
+    margin: 12px;
 }
 
 .social-links a {
-    color: white
+    color: white;
 }
 
 .social-links a:focus,
 .social-links a:hover {
-    color: #b3b3b3
+    color: #b3b3b3;
 }
 
 .device {
@@ -110,34 +114,34 @@ a {
 
 @media (min-width: 768px) {
     .marketing {
-        text-align: left
+        text-align: left;
     }
     .app-icon {
-        display: inline
+        display: inline;
     }
     .app-meta-center {
         text-align: center;
     }
     .marketing-desc {
-        text-align: left
+        text-align: left;
     }
 }
 
 .device {
     position: relative;
-    background-size: cover
+    background-size: cover;
 }
 
 .device .app-screenshot {
     position: absolute;
     width: 240px;
-    height: auto
+    height: auto;
 }
 
 .device.iphone-se-silver-vertical {
     width: 288px;
     height: 608px;
-    background-image: url(../../images/devices/iphone-se-silver-vertical.png)
+    background-image: url(../../images/devices/iphone-se-silver-vertical.png);
 }
 
 .device.iphone-se-silver-vertical .app-screenshot {
@@ -161,23 +165,23 @@ a {
 .device.iphone-se-space-gray-vertical {
     width: 288px;
     height: 608px;
-    background-image: url(../../images/devices/iphone-se-space-gray-vertical.png)
+    background-image: url(../../images/devices/iphone-se-space-gray-vertical.png);
 }
 
 .device.iphone-se-space-gray-vertical .app-screenshot {
     top: 91px;
     left: 25px;
-    width: 240px
+    width: 240px;
 }
 
 .device.ipod-touch-blue-vertical {
     width: 291px;
     height: 614px;
-    background-image: url(../../images/devices/ipod-touch-blue-vertical.png)
+    background-image: url(../../images/devices/ipod-touch-blue-vertical.png);
 }
 
 .device.ipod-touch-blue-vertical .app-screenshot {
     top: 87px;
     left: 23px;
-    width: 246px
+    width: 246px;
 }
