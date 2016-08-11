@@ -13,7 +13,7 @@ app:
   android_id: # Optional - Enter Android app id like: com.example.app
 
   icon: # Leave blank to auto-magically populate
-  images/app-icon-512.png
+    images/app-icon-512.png
   # To update use path relative to project root with no leading slash:
   # e.g. images/app-icon-512.png
   # 512px or greater, square
@@ -27,9 +27,9 @@ app:
 # Marketing
 #
 marketing_header:
-  Follow the hottest repositories from GitHub <br> # Optional
+  Follow GitHub trends. <br> # Optional
 marketing_desc:
-  🔥 Follow the trends in the community, no login is required.<br>📖 Access to the hottest repositories on your phone.<br>⭐️ Star your favorite repos and keep you profile updated.<br>👥 Discover the owner, contributors, forks, stargazers, languages, etc.<br>❤️ Stay connected with your followers, following and starred repos.<br>
+  🔥 Easily check out the trending happened in GitHub.<br>⭐️ Star your favorite repos.<br>👥 Discover people in the community.<br>👤 Contributors, forks, stargazers, languages all in one place.<br>❤️ Stay connected with your followers, following and starred repos.<br>
 
 #
 # Social Links
@@ -67,7 +67,7 @@ device: iphone-se-silver-vertical # REQUIRED
 # Theme Settings
 #
 background_color: "#989898" # Optional
-background_image: /images/backgrounds/71-usersthink-stock-image-web.jpg # Optional - Use Relative path e.g. images/backgrounds/image.jpg
+background_image: /images/backgrounds/91-usersthink-stock-image-web.jpg # Optional - Use Relative path e.g. images/backgrounds/image.jpg
 text_color: white # Optional
 link_color:  # Optional
 social_link_color: white # Optional
