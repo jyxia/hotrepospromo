@@ -115,6 +115,9 @@ a {
     .app-icon {
         display: inline
     }
+    .app-meta-center {
+        text-align: center;
+    }
     .marketing-desc {
         text-align: left
     }
