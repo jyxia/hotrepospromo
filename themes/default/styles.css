@@ -5,7 +5,7 @@ body {
 
 body {
     background-color: #989898;
-    background: linear-gradient(rgba(59, 61, 64, 0.5), rgba(59, 61, 64, 0.5)), url(../..//images/backgrounds/91-usersthink-stock-image-web.jpg) no-repeat center center;
+    background: linear-gradient(rgba(59, 61, 64, 0.5), rgba(59, 61, 64, 0.5)), url(../../images/backgrounds/91-usersthink-stock-image-web.jpg) no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -140,7 +140,19 @@ a {
 .device.iphone-se-silver-vertical .app-screenshot {
     top: 91px;
     left: 25px;
-    width: 240px
+    width: 240px;
+}
+
+.device.iphone-se-silver-vertical .slide-screenshot {
+    position: absolute;
+    width: 240px;
+    top: 91px;
+    left: 25px;
+}
+
+.device.iphone-se-silver-vertical .screenshot {
+    width: 240px;
+    height: auto;
 }
 
 .device.iphone-se-space-gray-vertical {

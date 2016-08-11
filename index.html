@@ -5,13 +5,11 @@
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
   <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-  <title>HotRepos web</title>
+  <title>HotRepos</title>
   <meta name="description" content="">
 
-
   <!-- Smart App Banner -->
-  <meta name="apple-itunes-app" content="app-id=1142465304,affiliate-data=11l7ss">
-
+  <meta name="apple-itunes-app" content="app-id=1142465304">
 
   <!-- Open All Links In A New Tab/Window -->
   <base target="_blank">
@@ -39,7 +37,6 @@
 
       <div class="row">
         <div class="col-sm-6">
-
           <!-- Marketing -->
           <div class="marketing">
             <div class="app-meta">
@@ -74,15 +71,20 @@
           </div>
         </div>
 
-
         <div class="col-sm-6">
-
           <!-- App Screenshot(s) -->
           <div class="device iphone-se-silver-vertical">
-            <img class="app-screenshot" src="images/app-screen.png" />
+            <div class="slide-screenshot">
+              <img class="screenshot" src="images/screenshots/app-screen-1.png" />
+              <img class="screenshot" src="images/screenshots/app-screen-2.png" />
+              <img class="screenshot" src="images/screenshots/app-screen-3.png" />
+              <img class="screenshot" src="images/screenshots/app-screen-4.png" />
+              <img class="screenshot" src="images/screenshots/app-screen-5.png" />
+              <img class="screenshot" src="images/screenshots/app-screen-6.png" />
+            </div>
           </div>
         </div>
-      </div>
+      </div> <!-- row ends -->
 
     </div>
   </div>
@@ -131,9 +133,13 @@
     });
   });
 
-  // $(".device").slick({
-  //   "autoplay": true
-  // });
+  $(".slide-screenshot").slick({
+    autoplay: true,
+    speed: 300,
+    prevArrow: false,
+    nextArrow: false,
+    variableWidth: true
+  });
 </script>
 <!-- End iTunes Search API -->
 </body>
