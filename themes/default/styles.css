@@ -20,6 +20,15 @@ a {
     transition: all .3s;
 }
 
+dt {
+  margin: 15px, 0px, 15px, 0px;
+  font-size: 25px;
+}
+
+dd {
+  color: lightgray;
+}
+
 .container {
     max-width: 980px;
 }
@@ -37,10 +46,6 @@ a {
 
 .marketing {
     text-align: center;
-}
-
-.marketing dd{
-    text-align: left;
 }
 
 .app-meta {
@@ -67,8 +72,7 @@ a {
 }
 
 .download-btn {
-    margin-right: 20px;
-    margin-bottom: 20px;
+    margin: 20px auto;
     border: none;
     background-color: #0191FF;
     color: #fff;
