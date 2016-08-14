@@ -30,13 +30,11 @@
 </head>
 
 <body>
-
+  <div class="hidden">
+    <img src="images/app-icon-red-1024.png" />
+  </div>
   <div class="main" role="main">
     <div class="container">
-      <img
-        class="hidden"
-        src="images/app-icon-red.png"
-      />
       <div class="row">
         <div class="col-sm-6">
 
@@ -47,7 +45,7 @@
                 class="app-icon"
                 style="min-width: 40px;"
                 height="auto"
-                src="images/app-icon-white-256.png"
+                src="images/app-icon-white.png"
               />
               <span class="app-name">HotRepos</span>
             </div>
@@ -64,6 +62,7 @@
                 <img class="screenshot" src="images/screenshots/app-screen-7.png" />
                 <img class="screenshot" src="images/screenshots/app-screen-8.png" />
                 <img class="screenshot" src="images/screenshots/app-screen-9.png" />
+                <!-- <img class="screenshot" src="images/screenshots/app-screen-1.png" /> -->
               </div>
             </div> <!-- col-xs-6 ends -->
         </div>
@@ -146,7 +145,7 @@
 
   $(".slide-screenshot").slick({
     autoplay: true,
-    speed: 300,
+    speed: 250,
     prevArrow: false,
     nextArrow: false,
     variableWidth: true
