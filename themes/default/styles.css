@@ -5,7 +5,7 @@ body {
 
 body {
     background-image: linear-gradient(180deg, #ff7832 0%, #ff3947 100%);
-    /*background-color: #ff7832;*/
+    background-color: #eee;
     /*background: linear-gradient(rgba(59, 61, 64, 0.5), rgba(59, 61, 64, 0.5)), url(../../images/backgrounds/91-usersthink-stock-image-web.jpg) no-repeat center center;*/
     -webkit-background-size: cover;
     -moz-background-size: cover;
