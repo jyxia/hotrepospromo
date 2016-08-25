@@ -1,18 +1,19 @@
+* {
+  box-sizing: border-box;
+  font-family:  -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
 html,
 body {
     min-height: 100%
 }
 
 body {
-    background-image: linear-gradient(180deg, #ff7832 0%, #ff3947 100%);
-    background-color: #eee;
-    /*background: linear-gradient(rgba(59, 61, 64, 0.5), rgba(59, 61, 64, 0.5)), url(../../images/backgrounds/91-usersthink-stock-image-web.jpg) no-repeat center center;*/
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     color: #eee;
-    font-size: 18px;
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
 }
@@ -21,33 +22,16 @@ a {
     transition: all .3s;
 }
 
-dt {
-  margin: 15px, 0px, 15px, 0px;
-  font-size: 25px;
-}
-
-dd {
-  color: #f5f5f5;
-  margin-bottom: 10px;
-}
-
 .hidden {
   display: none;
 }
 
-.container {
-    max-width: 980px;
-}
-
 .main {
+    background-image: linear-gradient(180deg, #ff9f3b 0%, #ff7455 100%);
     position: relative;
     min-height: 100%;
     padding-top: 70px;
     padding-bottom: 60px;
-}
-
-.footer {
-    padding-bottom: 50px;
 }
 
 .marketing {
@@ -57,21 +41,23 @@ dd {
 .app-meta {
     margin-top: 20px;
     margin-bottom: 20px;
-    font-size: 32px
+    font-size: 32px;
+    color: white;
 }
 
 .app-icon {
-    display: block;
-    margin: 0 auto 10px;
-    border-radius: 15px;
-    width: 92px
+  display: block;
+  margin: 0 auto 10px;
+  border-radius: 15px;
+  width: 92px;
+	min-width: 40px;
+	height: auto;
 }
 
-.marketing-desc {
-    margin: 0 auto 20px;
-    max-width: 450px;
-    white-space: pre-wrap;
-    font-weight: 500;
+.app-name {
+    font-size: 60px;
+    font-weight: 300;
+    vertical-align: top;
 }
 
 .download-buttons {
@@ -81,18 +67,62 @@ dd {
 .download-btn {
     margin: 20px auto;
     border: none;
-    /*background-color: #0191FF;*/
-    /*color: #fff;
-    background-color: #FF5E3A;
-    color: white;*/
     display: inline-block;
-    background-image: url("https://dn-catchinc.qbox.me/button_ios.svg");
     background-repeat: no-repeat;
     background-size: 100%;
     width: 200px;
     height: 60px;
 }
 
+.download-btn.ios {
+  background-image: url("../../images/buttons/button_ios.svg");
+}
+
+.download-btn.android {
+  background-image: url("../../images/buttons/button_soon.svg");
+}
+
+.content {
+    text-align: center;
+}
+
+.content h2 {
+    color: #38A6F9;
+    line-height: 35px;
+}
+
+.content h4 {
+    color: #808080;
+    line-height: 24px;
+}
+
+.content .feature {
+    padding: 10px;
+    border: 0;
+    vertical-align: baseline;
+}
+
+.content .feature img {
+    max-width: 200px;
+    max-height: 200px;
+    padding: 20px;
+}
+
+.content .top {
+    width: 50px;
+    height: 50px;
+    margin: 60px auto;
+    background-image: url("../../images/buttons/icon_scrolltop.svg");
+}
+
+.footer {
+    padding: 50px 0 0 10px;
+    color: #808080;
+}
+
+.footer h6 {
+    color: darkgrey;
+}
 
 .social {
     text-align: center;
@@ -119,7 +149,7 @@ dd {
 }
 
 .device {
-    margin: auto
+    margin: auto;
 }
 
 @media (min-width: 768px) {
@@ -129,11 +159,15 @@ dd {
     .app-icon {
         display: inline;
     }
-    .app-meta-center {
-        text-align: center;
+}
+
+@media (max-width: 768px) {
+    .main {
+        padding-top: 20px;
     }
-    .marketing-desc {
-        text-align: left;
+    .content .feature img {
+        max-width: 140px;
+        max-height: 140px;
     }
 }
 
