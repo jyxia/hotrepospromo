@@ -111,12 +111,19 @@ a {
 .content .top {
     width: 50px;
     height: 50px;
-    margin: 60px auto;
+    margin: 20px auto;
     background-image: url("../../images/buttons/icon_scrolltop.svg");
 }
 
+.swipe .feature {
+    margin: 5px auto;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+}
+
 .footer {
-    padding: 50px 0 0 10px;
+    padding: 20px 0 0 10px;
     color: #808080;
 }
 
@@ -159,6 +166,10 @@ a {
     .app-icon {
         display: inline;
     }
+    .swipe {
+      visibility: hidden;
+      height: 0;
+    }
 }
 
 @media (max-width: 768px) {
@@ -168,6 +179,16 @@ a {
     .content .feature img {
         max-width: 140px;
         max-height: 140px;
+    }
+    .content .swipe {
+      visibility: visible;
+      height: auto;
+      top: -30px;
+      width: 85%;
+      margin: 5px auto;
+    }
+    .content .wide {
+      display: none;
     }
 }
 
